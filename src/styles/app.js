@@ -3,8 +3,9 @@ import styled from 'styled-components'
 export const Header = styled.header`
     background: #007fab;
     background-image: linear-gradient(to right, #0EBCE7, #223A8A);
-    padding: 1rem 0 1rem;
+    padding: 2rem 0 2rem;
     text-align: right;
+    z-index: 1;
 `;
 
 export const Title = styled.h1`
@@ -29,8 +30,8 @@ export const Subtitle = styled.h1`
 
 export const Footer = styled.footer`
   text-align: center;
-  padding: 4rem 0 2rem;
+  padding: 1rem 0 1rem;
   color: #333;
   opacity: 0.6;
-  margin-top: -1.8rem;
+  margin-top: -5rem;
 `;

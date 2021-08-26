@@ -25,9 +25,15 @@ export default createGlobalStyle`
     font-size: 86.25%;
     }
 
-    body {
-        background: #f0f2f5;
-    }
+    .backgroundcover {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1rem;
+    min-height: 100vh;
+    opacity: 0.8;
+}
 
     .graphdon {
         width: 400px;

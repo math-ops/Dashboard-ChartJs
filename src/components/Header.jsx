@@ -6,7 +6,7 @@ export default function Head(){
         <>
             <Header>
                 <img src={Logo} alt="Flex"/>
-                <Title>Dashboard Index</Title>
+                <Title>Vacinômetro Flex - Covid19</Title>
             </Header>        
         </>
     )
