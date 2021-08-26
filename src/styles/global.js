@@ -32,19 +32,56 @@ export default createGlobalStyle`
     .graphdon {
         width: 400px;
         height: 600px;
-        margin-left: 200px;
+        margin-left: 150px;
+        margin-top: 50px;
         justify-content: center;
         align-items: center;
     }
 
+    .infoboxdonut { 
+        justify-content: right;
+        align-items: right;
+        margin-top: -250px;
+        margin-left: 500px;
+        height: 200px;
+        width: 400px;        
+    }    
+
     .graphbar {
         width: 400px;
         height: 600px;
-        margin-left: 800px;
-        margin-top: -33rem;
+        margin-left: 700px;
+        margin-top: -50px;
+
+    }
+
+    .infoboxbar { 
+        justify-content: left;
+        align-items: left;
+        margin-top: -150px;
+        margin-left: -500px;
+        height: 200px;
+        width: 400px;
+        
+    }
+
+    .graphline {
+        width: 400px;
+        height: 600px;
+        margin-left: 150px;
+        margin-top: -150px;
         justify-content: center;
         align-items: center;
     }
+
+    .infoboxline { 
+        justify-content: right;
+        align-items: right;
+        margin-top: -150px;
+        margin-left: 550px;
+        height: 200px;
+        width: 400px;        
+    } 
 }
 
 
