@@ -7,17 +7,6 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
 }
-//Mobile
-@media (max-width: 768px){
-    html{
-    font-family: "Oswald", sans-serif;
-    font-size: 93.75%;
-  }
-
-  body {
-      background: #f0f2f5;
-  }
-}
 //Desktop
 @media (min-width: 769px){
     html{
@@ -30,64 +19,151 @@ export default createGlobalStyle`
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 1rem;
-    min-height: 100vh;
+    padding-top: -1rem;
+    min-height:100vh;
     opacity: 0.8;
-}
-
-    .graphdon {
-        width: 400px;
-        height: 600px;
-        margin-left: 150px;
-        margin-top: 50px;
-        justify-content: center;
-        align-items: center;
     }
 
-    .infoboxdonut { 
-        justify-content: right;
-        align-items: right;
-        margin-top: -250px;
-        margin-left: 500px;
+    .totalvacinados {
+        position: absolute;
+        width: 950px;
+        height: 100px;
+        background: #f1b52c;
+        border: 1px solid #ce6d28;
+        box-sizing: border-box;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        margin-top: -800px;
+        margin-left: 900px;
+    }
+
+    .totalvacinados .number {
+        font-family: "Play", sans-serif;
+        font-size: 3rem;
+        position: absolute;
+        text-align: center;
+        color: #000;
+        margin-left: 400px;
+        margin-top: -53px;
+
+    }
+
+    .elegiveis {
+        position: absolute;
+        width: 300px;
         height: 200px;
-        width: 400px;        
-    }    
+        background: #82bc00;
+        border: 1px solid #006432;
+        box-sizing: border-box;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        margin-top: -680px;
+        margin-left: 900px;
+    }
 
-    .graphbar {
-        width: 400px;
-        height: 600px;
-        margin-left: 700px;
-        margin-top: -50px;
+    .elegiveis .number {
+        font-family: "Play", sans-serif;
+        font-size: 3rem;
+        position: absolute;
+        text-align: center;
+        color: #000;
+        margin-left: 100px;
 
     }
 
-    .infoboxbar { 
-        justify-content: left;
-        align-items: left;
-        margin-top: -150px;
-        margin-left: -500px;
+    .dose-um {
+        position: absolute;
+        width: 300px;
         height: 200px;
-        width: 400px;
-        
+        background: #ba257d;
+        border: 1px solid #7f1e5e;
+        box-sizing: border-box;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        margin-top: -680px;
+        margin-left: 1220px;
     }
 
-    .graphline {
-        width: 400px;
-        height: 600px;
-        margin-left: 150px;
-        margin-top: -150px;
-        justify-content: center;
-        align-items: center;
+    .dose-um .number {
+        font-family: "Play", sans-serif;
+        font-size: 3rem;
+        position: absolute;
+        text-align: center;
+        color: #000;
+        margin-left: 100px;
+
     }
 
-    .infoboxline { 
-        justify-content: right;
-        align-items: right;
-        margin-top: -150px;
-        margin-left: 550px;
+    .dose-dois {
+        position: absolute;
+        width: 300px;
         height: 200px;
-        width: 400px;        
-    } 
+        background: #ba257d;
+        border: 1px solid #7f1e5e;
+        box-sizing: border-box;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        margin-top: -450px;
+        margin-left: 1220px;
+    }
+
+    .dose-dois .number {
+        font-family: "Play", sans-serif;
+        font-size: 3rem;
+        position: absolute;
+        text-align: center;
+        color: #000;
+        margin-left: 100px;
+
+    }
+
+    .unica {
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        background: #82bc00;
+        border: 1px solid #006432;
+        box-sizing: border-box;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        margin-top: -450px;
+        margin-left: 900px;
+    }
+
+    .unica .number {
+        font-family: "Play", sans-serif;
+        font-size: 3rem;
+        position: absolute;
+        text-align: center;
+        color: #000;
+        margin-left: 100px;
+
+    }
+
+    .alimentos {
+        position: absolute;
+        width: 300px;
+        height: 430px;
+        background: #009add;
+        border: 1px solid #005486;
+        box-sizing: border-box;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        margin-top: -680px;
+        margin-left: 1550px;
+    }
+
+    .alimentos .number {
+        font-family: "Play", sans-serif;
+        font-size: 3rem;
+        position: absolute;
+        text-align: center;
+        color: #000;
+        margin-top: 100px;
+        margin-left: 90px;
+
+    }
+
 }
 
 

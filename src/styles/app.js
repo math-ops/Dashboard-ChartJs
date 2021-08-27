@@ -3,9 +3,8 @@ import styled from 'styled-components'
 export const Header = styled.header`
     background: #007fab;
     background-image: linear-gradient(to right, #0EBCE7, #223A8A);
-    padding: 2rem 0 2rem;
+    padding: 1rem 0 1rem;
     text-align: right;
-    z-index: 1;
 `;
 
 export const Title = styled.h1`
@@ -34,4 +33,23 @@ export const Footer = styled.footer`
   color: #333;
   opacity: 0.6;
   margin-top: -5rem;
+`;
+
+export const CardTitle = styled.h2`
+  text-align: left;
+  padding: 1rem 0 1rem;
+  color: #000;
+  margin-top: 1.5rem;
+  margin-left: 40px;
+
+`;
+
+export const CardSubtitle = styled.h2`
+  text-align: center;
+  padding: 1rem 0 1rem;
+  color: #000;
+  margin-top: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
+
 `;
