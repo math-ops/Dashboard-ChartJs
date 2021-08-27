@@ -169,7 +169,7 @@ export default createGlobalStyle`
 
 
 //Desktop Landscape(Paisagem)
-@media (min-width: 769px){
+@media only screen and (min-width: 800px){
     html{
     font-family: "Oswald", sans-serif;
     font-size: 86.25%;
@@ -177,7 +177,7 @@ export default createGlobalStyle`
 
     body {
         
-    zoom: 70%;
+    zoom: 67%;
     }
 
     a {
@@ -190,7 +190,7 @@ export default createGlobalStyle`
         background-size: 100%;
         background-repeat: no-repeat;
         padding-top: -2.5rem;
-        min-height: 150vh;
+        min-height: 140vh;
         min-width: 100vw;
         opacity: 1;
     }
