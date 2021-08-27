@@ -8,7 +8,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
 }
 //Desktop Portrait(Retrato)
-@media (min-width: 1080px){
+/* @media (min-width: 1080px){
     html{
     font-family: "Oswald", sans-serif;
     font-size: 86.25%;
@@ -165,7 +165,7 @@ export default createGlobalStyle`
 
     }
 
-}
+} */
 
 
 //Desktop Landscape(Paisagem)
@@ -173,6 +173,11 @@ export default createGlobalStyle`
     html{
     font-family: "Oswald", sans-serif;
     font-size: 86.25%;
+    }
+
+    body {
+        
+    zoom: 70%;
     }
 
     a {
@@ -185,7 +190,7 @@ export default createGlobalStyle`
         background-size: 100%;
         background-repeat: no-repeat;
         padding-top: -2.5rem;
-        min-height: 100vh;
+        min-height: 150vh;
         min-width: 100vw;
         opacity: 1;
     }
