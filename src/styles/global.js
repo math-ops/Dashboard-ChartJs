@@ -195,6 +195,7 @@ export default createGlobalStyle`
         width: 1050px;
         height: 150px;
         background: #f1b52c;
+        background-image: linear-gradient(to bottom, #f1b52c, #ce6d28);
         border: 1px solid #ce6d28;
         box-sizing: border-box;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -219,6 +220,7 @@ export default createGlobalStyle`
         width: 350px;
         height: 250px;
         background: #82bc00;
+        background-image: linear-gradient(to bottom, #82bc00, #006432);
         border: 1px solid #006432;
         box-sizing: border-box;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -243,6 +245,7 @@ export default createGlobalStyle`
         width: 350px;
         height: 250px;
         background: #ba257d;
+        background-image: linear-gradient(to bottom, #ba257d, #7f1e5e);
         border: 1px solid #7f1e5e;
         box-sizing: border-box;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -267,6 +270,7 @@ export default createGlobalStyle`
         width: 350px;
         height: 250px;
         background: #ba257d;
+        background-image: linear-gradient(to bottom, #ba257d, #7f1e5e);
         border: 1px solid #7f1e5e;
         box-sizing: border-box;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -291,6 +295,7 @@ export default createGlobalStyle`
         width: 350px;
         height: 250px;
         background: #82bc00;
+        background-image: linear-gradient(to bottom, #82bc00, #006432);
         border: 1px solid #006432;
         box-sizing: border-box;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -315,6 +320,7 @@ export default createGlobalStyle`
         width: 300px;
         height: 530px;
         background: #009add;
+        background-image: linear-gradient(to bottom, #009add, #005486);
         border: 1px solid #005486;
         box-sizing: border-box;
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -381,6 +387,53 @@ export default createGlobalStyle`
         margin-left: 80px;
     }
 
+    .form-controle{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(4, 4fr);
+        width: 700px;
+        height: 600px;
+        background: #fff;
+        border: 1px solid #006432;
+        box-sizing: border-box;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        margin-top: -750px;
+        margin-left: 1000px;
+       
+    }
+    
+    .form-controle .form-label{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: 20px;
+
+    }
+
+    .form-controle .form-input{
+        height: 50px;
+        width: 200px;
+        margin-left: 0;
+        margin-right: 10px;
+        margin-top: 30px;
+        justify-self: initial;
+        background: #fff;
+        border: 1px solid #000;
+        border-radius: 10px;
+
+        }
+
+    .form-controle .form-button{
+        position: absolute;
+        width: 90px;
+        height: 50px;
+        background: #82bc00;
+        border: none;
+        border-radius: 10px;
+
+
+    }
 }
 
 

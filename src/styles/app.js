@@ -66,3 +66,14 @@ export const MenuSubtitle = styled.h2`
   margin-right: 20px;
 
 `;
+
+export const OptionSubtitle = styled.h2`
+  text-align: center;
+  font-size: 45px;
+  padding: 1rem 0 1rem;
+  color: #000;
+  margin-top: -150px;
+  margin-left: 100px;
+  margin-right: 20px;
+
+`;

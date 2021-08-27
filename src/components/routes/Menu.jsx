@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components'
 import { MenuSubtitle, Subtitle } from '../../styles/app'
 
 export default function MenuCadastro(){
@@ -19,7 +18,7 @@ export function Colaborador(){
     <>
       <div className="option-col">
         <MenuSubtitle>Cadastro de Colaboradores</MenuSubtitle>
-        <a href="#" className="menu-button">Acessar</a>
+        <a href="/Cadastro" className="menu-button">Acessar</a>
       </div>
     </>
   )
@@ -30,7 +29,7 @@ export function Vacinas(){
     <>
     <div className="option-vac">
       <MenuSubtitle>Controle de Colaboradores</MenuSubtitle>
-      <a href="#" className="menu-button">Acessar</a>
+      <a href="/Controle" className="menu-button">Acessar</a>
     </div>
     </>
   )
