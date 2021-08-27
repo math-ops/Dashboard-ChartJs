@@ -37,18 +37,31 @@ export const Footer = styled.footer`
 
 export const CardTitle = styled.h2`
   text-align: left;
+  font-size: 30px;
   padding: 1rem 0 1rem;
   color: #000;
-  margin-top: 1.5rem;
+  margin-top: 2.5rem;
   margin-left: 40px;
 
 `;
 
 export const CardSubtitle = styled.h2`
   text-align: center;
+  font-size: 25px;
   padding: 1rem 0 1rem;
   color: #000;
-  margin-top: 1.5rem;
+  margin-top: 0.4rem;
+  margin-left: 20px;
+  margin-right: 20px;
+
+`;
+
+export const MenuSubtitle = styled.h2`
+  text-align: center;
+  font-size: 30px;
+  padding: 1rem 0 1rem;
+  color: #000;
+  margin-top: 0.4rem;
   margin-left: 20px;
   margin-right: 20px;
 

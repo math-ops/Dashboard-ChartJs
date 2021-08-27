@@ -3,8 +3,9 @@ import React from "react";
 import GlobalStyle from './styles/global'
 import  Head  from "./components/Header"
 import Foot from "./components/Footer"
-import Vacineflex from "./components/routes/Dashboard"
+//import Vacineflex from "./components/routes/Dashboard"
 import backgroundImage from './styles/assets/background.png'
+import MenuCadastro from './components/routes/Menu'
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       <Head />
       <div className="backgroundcover" style={{ background: `url(${backgroundImage})`}} />
 
+      
+      <MenuCadastro />
       <Foot />
-      <Vacineflex />
       <GlobalStyle />
     </>
   )
