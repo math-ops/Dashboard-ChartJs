@@ -1,33 +1,42 @@
 import React from 'react'
-import { Subtitle } from '../../styles/app'
+import { MSubtitle } from '../../styles/app'
 
 export default function Cadastro(){
   return(
-    <div className="cadastro-colaborador">
-      <Subtitle>Cadastro de Colaborador</Subtitle>
-      <div className="form-colaborador">
-        <form action="">
-        <label>Nome Completo</label>
-        <input type="text" name="" id="" />
-
-        <label>Workday</label>
-        <input type="text" name="" id="" />
-
-        <label>CPF</label>
-        <input type="text" name="" id="" />
-
-        <label>Data Admissão</label>
-        <input type="text" name="" id="" />
-
-        <label>Cargo</label>
-        <input type="text" name="" id="" />
-
-        <label>Gestor</label>
-        <input type="text" name="" id="" />
-
-        <button></button>
-        </form>
-      </div>
+    <>
+    <div className="menu-title">
+      <MSubtitle>Cadastro de Colaborador</MSubtitle>
     </div>
+    <FormCadastro />
+    </>
+  )
+}
+
+export function FormCadastro(){
+  return(
+    <>
+    
+    <form action="">
+    <div className="cad-colaborador">
+        
+        <label className="cad-label" >Nome</label>
+        <input className="cad-input"  type="text" name="" id="" placeholder="Nome Completo"/>
+
+        <label className="cad-label" >Workday</label>
+        <input className="cad-input"  type="text" name="" id="" placeholder="Workday"/>
+
+        <label className="cad-label" >CPF</label>
+        <input className="cad-input"  type="text" name="" id="" placeholder="CPF"/>
+        
+        <label className="cad-label" >Cargo</label>
+        <input className="cad-input"  type="text" name="" id="" placeholder="Cargo"/>
+
+        <label className="cad-label" >Gestor</label>
+        <input className="cad-input"  type="text" name="" id="" placeholder="Gestor"/>
+
+        <button className="cad-button">Cadastrar</button>
+        </div>
+        </form>
+      </>
   )
 }

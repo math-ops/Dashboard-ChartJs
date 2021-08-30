@@ -18,6 +18,10 @@ export function FormControle(){
     <>
         <form action="">
         <div className="form-controle" >
+
+        <label className="form-label">Colaborador</label>
+        <input className="form-input" type="text" name="" id="" placeholder=" Colaborador"/>  
+
         <label className="form-label">Empresa</label>
         <input className="form-input" type="text" name="" id="" placeholder="Empresa"/>
 
@@ -27,8 +31,7 @@ export function FormControle(){
         <label className="form-label">Grupo de Risco</label>
         <input className="form-input" type="text" name="" id="" placeholder="Grupo de Risco"/>
  
-        <label className="form-label">Colaborador</label>
-        <input className="form-input" type="text" name="" id="" placeholder=" Colaborador"/>
+        
 
         <label className="form-label">Data da Primeira Dose</label>
         <input className="form-input" type="date" name="" id="" placeholder="Data Primeira Dose"/>

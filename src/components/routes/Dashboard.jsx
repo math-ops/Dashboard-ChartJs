@@ -1,5 +1,6 @@
 import React from 'react'
 import { CardTitle, CardSubtitle } from '../../styles/app'
+import Health from '../../styles/assets/Syringe.svg'
 
 export default function Vacineflex(){
     return(
@@ -19,9 +20,9 @@ export function TotalVacinados(){
         <>
             <div className="totalvacinados">
                 <CardTitle>Total de Colaboradores Vacinados:</CardTitle>
+                <img src={Health} alt="Syringe" className="image-top"/>
                 <div className="number">
                     <p>0000</p>
-                    <img src="" alt="" />
                 </div>
             </div>
         </>
@@ -32,7 +33,7 @@ export function Elegiveis(){
     return(
         <>
             <div className="elegiveis">
-                <CardSubtitle>Total de Colaboradores Vacinados:</CardSubtitle>
+                <CardSubtitle>Total de Colaboradores Elegíveis:</CardSubtitle>
                 <div className="number">
                     <p>0000</p>
                     <img src="" alt="" />

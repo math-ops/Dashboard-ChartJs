@@ -9,6 +9,7 @@ import backgroundImage from './styles/assets/background.png'
 import MenuCadastro from './components/routes/Menu'
 import Cadastro from './components/routes/Cadastro'
 import Controle from "./components/routes/Controle"
+import Login from './components/routes/Login'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Vacineflex}/>
         <Route path="/Menu" exact component={MenuCadastro}/>
+        <Route path="/Login" exact component={Login}/>
         <Route path="/Cadastro" component={Cadastro}/>
         <Route path="/Controle" component={Controle}/>
       </Switch>

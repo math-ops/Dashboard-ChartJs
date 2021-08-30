@@ -1,11 +1,11 @@
 import React from 'react'
-import { MenuSubtitle, Subtitle } from '../../styles/app'
+import { MenuSubtitle, MSubtitle } from '../../styles/app'
 
 export default function MenuCadastro(){
   return(
     <>
       <div className="menu-title">
-        <Subtitle>Bem-Vindos ao Vacinômetro Flex</Subtitle>
+        <MSubtitle>Bem-Vindos ao Vacinômetro Flex</MSubtitle>
       </div>
       <Colaborador />
       <Vacinas />

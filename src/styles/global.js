@@ -7,169 +7,8 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
 }
-//Desktop Portrait(Retrato)
-/* @media (min-width: 1080px){
-    html{
-    font-family: "Oswald", sans-serif;
-    font-size: 86.25%;
-    }
-
-    .backgroundcover {
-        background-attachment: local;
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-        padding-top: -2.5rem;
-        min-height: 100vh;
-        min-width: 100vw;
-        opacity: 1;
-    }
-
-    .totalvacinados {
-        position: absolute;
-        width: 950px;
-        height: 100px;
-        background: #f1b52c;
-        border: 1px solid #ce6d28;
-        box-sizing: border-box;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 20px;
-        margin-top: -800px;
-        margin-left: 900px;
-    }
-
-    .totalvacinados .number {
-        font-family: "Play", sans-serif;
-        font-size: 3rem;
-        position: absolute;
-        text-align: center;
-        color: #000;
-        margin-left: 400px;
-        margin-top: -53px;
-
-    }
-
-    .elegiveis {
-        position: absolute;
-        width: 300px;
-        height: 200px;
-        background: #82bc00;
-        border: 1px solid #006432;
-        box-sizing: border-box;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 25px;
-        margin-top: -680px;
-        margin-left: 900px;
-    }
-
-    .elegiveis .number {
-        font-family: "Play", sans-serif;
-        font-size: 3rem;
-        position: absolute;
-        text-align: center;
-        color: #000;
-        margin-left: 100px;
-
-    }
-
-    .dose-um {
-        position: absolute;
-        width: 300px;
-        height: 200px;
-        background: #ba257d;
-        border: 1px solid #7f1e5e;
-        box-sizing: border-box;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 25px;
-        margin-top: -680px;
-        margin-left: 1220px;
-    }
-
-    .dose-um .number {
-        font-family: "Play", sans-serif;
-        font-size: 3rem;
-        position: absolute;
-        text-align: center;
-        color: #000;
-        margin-left: 100px;
-
-    }
-
-    .dose-dois {
-        position: absolute;
-        width: 300px;
-        height: 200px;
-        background: #ba257d;
-        border: 1px solid #7f1e5e;
-        box-sizing: border-box;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 25px;
-        margin-top: -450px;
-        margin-left: 1220px;
-    }
-
-    .dose-dois .number {
-        font-family: "Play", sans-serif;
-        font-size: 3rem;
-        position: absolute;
-        text-align: center;
-        color: #000;
-        margin-left: 100px;
-
-    }
-
-    .unica {
-        position: absolute;
-        width: 300px;
-        height: 200px;
-        background: #82bc00;
-        border: 1px solid #006432;
-        box-sizing: border-box;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 25px;
-        margin-top: -450px;
-        margin-left: 900px;
-    }
-
-    .unica .number {
-        font-family: "Play", sans-serif;
-        font-size: 3rem;
-        position: absolute;
-        text-align: center;
-        color: #000;
-        margin-left: 100px;
-
-    }
-
-    .alimentos {
-        position: absolute;
-        width: 300px;
-        height: 430px;
-        background: #009add;
-        border: 1px solid #005486;
-        box-sizing: border-box;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 25px;
-        margin-top: -680px;
-        margin-left: 1550px;
-    }
-
-    .alimentos .number {
-        font-family: "Play", sans-serif;
-        font-size: 3rem;
-        position: absolute;
-        text-align: center;
-        color: #000;
-        margin-top: 100px;
-        margin-left: 90px;
-
-    }
-
-} */
-
-
 //Desktop Landscape(Paisagem)
-@media only screen and (min-width: 800px){
+//@media only screen and (min-width: 800px){
     html{
     font-family: "Oswald", sans-serif;
     font-size: 86.25%;
@@ -182,6 +21,24 @@ export default createGlobalStyle`
 
     a {
         text-decoration: none;
+    }
+
+    .topbar {
+        position: absolute;
+        margin-top: -55px;
+        margin-left: 1000px;
+    }
+
+    .log-topbar {
+        position: absolute;
+        margin-top: -55px;
+        margin-left: 1050px;
+    }
+
+    .logo {
+      width: 120px;
+      height: 60px;
+      margin-top: -110px;
     }
 
     .backgroundcover {
@@ -211,12 +68,12 @@ export default createGlobalStyle`
 
     .totalvacinados .number {
         font-family: "Play", sans-serif;
-        font-size: 70px;
+        font-size: 85px;
         position: absolute;
         text-align: center;
-        color: #000;
+        color: #fff;
         margin-left: 550px;
-        margin-top: -75px;
+        margin-top: -100px;
 
     }
 
@@ -236,12 +93,12 @@ export default createGlobalStyle`
 
     .elegiveis .number {
         font-family: "Play", sans-serif;
-        font-size: 70px;
+        font-size: 85px;
         position: absolute;
         text-align: center;
-        color: #000;
+        color: #fff;
         margin-top: 10px;
-        margin-left: 95px;
+        margin-left: 85px;
 
     }
 
@@ -261,12 +118,12 @@ export default createGlobalStyle`
 
     .dose-um .number {
         font-family: "Play", sans-serif;
-        font-size: 70px;
+        font-size: 85px;
         position: absolute;
         text-align: center;
-        color: #000;
+        color: #fff;
         margin-top: 10px;
-        margin-left: 95px;
+        margin-left: 85px;
 
     }
 
@@ -286,12 +143,12 @@ export default createGlobalStyle`
 
     .dose-dois .number {
         font-family: "Play", sans-serif;
-        font-size: 70px;
+        font-size: 85px;
         position: absolute;
         text-align: center;
-        color: #000;
+        color: #fff;
         margin-top: 10px;
-        margin-left: 95px;
+        margin-left: 85px;
 
     }
 
@@ -311,12 +168,12 @@ export default createGlobalStyle`
 
     .unica .number {
         font-family: "Play", sans-serif;
-        font-size: 70px;
+        font-size: 85px;
         position: absolute;
         text-align: center;
-        color: #000;
+        color: #fff;
         margin-top: 10px;
-        margin-left: 95px;
+        margin-left: 85px;
 
     }
 
@@ -336,12 +193,12 @@ export default createGlobalStyle`
 
     .alimentos .number {
         font-family: "Play", sans-serif;
-        font-size: 70px;
+        font-size: 85px;
         position: absolute;
         text-align: center;
-        color: #000;
+        color: #fff;
         margin-top: 100px;
-        margin-left: 30px;
+        margin-left: 20px;
 
     }
 
@@ -395,8 +252,8 @@ export default createGlobalStyle`
     .form-controle{
         position: absolute;
         display: grid;
-        grid-template-columns: repeat(4, 4fr);
-        width: 700px;
+        grid-template-columns: repeat(6, 150px);
+        width: 900px;
         height: 600px;
         background: #fff;
         border: 1px solid #006432;
@@ -404,42 +261,184 @@ export default createGlobalStyle`
         box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
         border-radius: 25px;
         margin-top: -750px;
-        margin-left: 1000px;
+        margin-left: 880px;
        
     }
     
-    .form-controle .form-label{
-        font-size: 20px;
-        margin-left: 20px;
-        margin-right: 10px;
+    .form-label{
+        display: inline-flex;
+        justify-content: left;
+        align-items: left;
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 100px;
         margin-top: 20px;
 
     }
 
-    .form-controle .form-input{
+    .form-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         height: 50px;
-        width: 200px;
-        margin-left: 0;
-        margin-right: 10px;
-        margin-top: 30px;
-        justify-self: initial;
-        background: #fff;
-        border: 1px solid #000;
+        width: 280px;
         border-radius: 10px;
+        background: #f0f0f0;
+        border: none;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+        margin-left: -140px;
+        margin-right: auto;
+        margin-top: 80px;
 
         }
 
-    .form-controle .form-button{
-        position: absolute;
-        width: 90px;
+    .form-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 20px;
         height: 50px;
-        background: #82bc00;
-        border: none;
+        width: 300px;
         border-radius: 10px;
+        background: #82bc00;
+        border: #006432;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+        margin-left: 10px;
+        margin-right: auto;
+        margin-top: 80px;
 
 
     }
-}
+
+    .image-top {
+        margin-top: -700px;
+        margin-left: 900px;
+        width: 100px;
+        height: 100px;
+    }
+
+    .cadastro-colaborador{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(4, 4fr);
+        width: 400px;
+        height: 500px;
+        background: #fff;
+        border: 1px solid #006432;
+        box-sizing: border-box;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        margin-top: -730px;
+        margin-left: 1030px;
+    }
+
+    .login-label {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+        margin-left: 130px;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+
+    .login-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 280px;
+        border-radius: 10px;
+        background: #f0f0f0;
+        border: none;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+        margin-left: 65px;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .login-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 20px;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        background: #82bc00;
+        border: #006432;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+        margin-left: 125px;
+        margin-right: auto;
+        margin-top: 60px;
+    }
+
+    .cad-colaborador{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(6, 150px);
+        width: 900px;
+        height: 500px;
+        background: #fff;
+        border: 1px solid #006432;
+        box-sizing: border-box;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        margin-top: -600px;
+        margin-left: 880px;
+    }
+
+    .cad-label {
+        display: inline-flex;
+        justify-content: left;
+        align-items: left;
+        font-size: 25px;
+        margin-left: 10px;
+        margin-right: 100px;
+        margin-top: 20px;
+    }
+
+    .cad-input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 280px;
+        border-radius: 10px;
+        background: #f0f0f0;
+        border: none;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+        margin-left: -140px;
+        margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: -150px;
+    }
+
+    .cad-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 20px;
+        height: 50px;
+        width: 250px;
+        border-radius: 10px;
+        background: #82bc00;
+        border: #006432;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+        margin-left: 30px;
+        margin-right: auto;
+        margin-top: 80px;
+    }
+//}
 
 
 
