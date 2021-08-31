@@ -33,7 +33,8 @@ export const Title = styled.h1`
 
 export const Subtitle = styled.h1`
     color: #fff;
-    margin-top: 1rem;
+    margin-top: -10px;
+    margin-left: -710px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,10 +58,10 @@ export const Footer = styled.footer`
 
 export const CardTitle = styled.h2`
   text-align: left;
-  font-size: 30px;
+  font-size: 35px;
   padding: 1rem 0 1rem;
   color: #fff;
-  margin-top: 2.5rem;
+  margin-top: 1.3rem;
   margin-left: 40px;
 
 `;

@@ -1,5 +1,6 @@
 import React from 'react'
 import { MSubtitle } from '../../styles/app'
+import '../../styles/Cadastro.css'
 
 export default function Cadastro(){
   return(
@@ -35,6 +36,8 @@ export function FormCadastro(){
         <input className="cad-input"  type="text" name="" id="" placeholder="Gestor"/>
 
         <button className="cad-button">Cadastrar</button>
+
+        <strong className="setSuccess">Error! - Error Message</strong>
         </div>
         </form>
       </>

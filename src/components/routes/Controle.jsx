@@ -1,5 +1,6 @@
 import React from 'react'
 import { OptionSubtitle } from '../../styles/app'
+import '../../styles/Controle.css'
 
 export default function Controle(){
   return(
@@ -29,24 +30,16 @@ export function FormControle(){
         <input className="form-input" type="text" name="" id="" placeholder="Risco"/>
 
         <label className="form-label">Grupo de Risco</label>
-        <input className="form-input" type="text" name="" id="" placeholder="Grupo de Risco"/>
- 
-        
+        <input className="form-input" type="text" name="" id="" placeholder="Grupo de Risco"/>        
 
         <label className="form-label">Data da Primeira Dose</label>
         <input className="form-input" type="date" name="" id="" placeholder="Data Primeira Dose"/>
 
-        <label className="form-label">Status Primeira Dose</label>
-        <input className="form-input" type="text" name="" id="" placeholder="Status Primeira Dose"/>
-
         <label className="form-label">Data da Segunda Dose</label>
         <input className="form-input" type="date" name="" id="" placeholder="Data Segunda Dose"/>
 
-        <label className="form-label">Status Segunda Dose</label>
-        <input className="form-input" type="text" name="" id="" placeholder="Status Segunda Dose"/>
-
-        <label className="form-label">Data do Agendamento</label>
-        <input className="form-input" type="date" name="" id="" placeholder="Data Agendamento"/>
+        <label className="form-label">Data da Dose Única</label>
+        <input className="form-input" type="date" name="" id="" placeholder="Data Primeira Dose"/>
 
         <label className="form-label">Status</label>
         <input className="form-input" type="text" name="" id="" placeholder="Status"/>

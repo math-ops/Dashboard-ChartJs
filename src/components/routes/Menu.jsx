@@ -1,5 +1,6 @@
 import React from 'react'
 import { MenuSubtitle, MSubtitle } from '../../styles/app'
+import '../../styles/Menu.css'
 
 export default function MenuCadastro(){
   return(
